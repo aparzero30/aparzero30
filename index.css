@@ -6,7 +6,7 @@ body,html{
     color: white;
     display: flex;
     flex-direction: row;
-
+    overflow: scroll;
     font-family: Roboto Slab;
     position: fixed;    
     left: 0;
@@ -121,10 +121,11 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 210px;
 }
 
 .details{
-    background-color: green;
+   /* background-color: green;*/
     width: 50vw;
     height: 80vh;
     align-items: center;
@@ -133,11 +134,34 @@ text-align: center;
 
 }
 
-.pic{
-    height: 800px;
-    width: 1000px;
+
+
+.rectangle{
+    background-color: #2dca94;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 242px;
+    min-height: 150px;
+ 
+
 }
 
+.image{
+   /* background-color: yellow;*/
+    height: 600px;
+    width: 600px;
+    position: inherit;
+    background-image: url("https://www.pngarts.com/files/11/Elon-Musk-PNG-High-Quality-Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 225px;
+    min-width:255px;
+  
+   
+}
 
 
 
