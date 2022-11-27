@@ -34,6 +34,7 @@
       padding-top: 20px;
     font-size: 60px;
     color: #2dca94;
+    font-family: Secular One;
    }
  .logo{
     width: 500vw;
@@ -106,11 +107,21 @@
    .billboard{
       height: 400px;
       min-height: 400px;
+      max-height: 400px;
    }
    .image{
       max-height: 402px;
       max-width: 402px;
    }
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width:800px){
+   .billboard{
+      align-items: center;
+   }
+   
 }
 
 
