@@ -172,25 +172,5 @@ text-align: center;
     flex-direction: column;
 }
 
-.opening{
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-}
-
-.ico1{
-    height: 30px;
-    width: 30px;
-    background-image: url("less.png");
-    background-size: cover;
-}
-
-.ico2{
-    height: 30px;
-    width: 30px;
-    background-image: url("greater.png");
-    background-size: cover;
-}
-
 
 
