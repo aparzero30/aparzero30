@@ -29,6 +29,8 @@
 @media only screen and (max-width: 1000px) {
 
 
+
+
     body,html{
         background-color: #2f3136;
     }
@@ -83,12 +85,20 @@
    margin-top: 10vh;
 }
 
+.about{
+   padding-top: 5px;
+}
+
 .billboard{
    width: 100vw;
    height: 200px;
+   min-height: 200px;
    display: flex;
    align-items: flex-end;
    justify-content: center;
+   position: relative;
+   top: 50px;
+   
 
 }
 
@@ -123,6 +133,18 @@
 @media only screen and (min-width: 500px) and (max-width:820px){
    .billboard{
       align-items: center;
+   }
+   
+}
+
+
+@media only screen and (min-width: 1001px) and (max-width:1300px){
+   .billboard{
+      align-items: center;
+   }
+
+   .about{
+      padding-top: 80px;
    }
    
 }
