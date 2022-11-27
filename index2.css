@@ -105,6 +105,7 @@
 @media only screen and (min-width: 500px) and (max-width:1000px){
    .billboard{
       height: 400px;
+      min-height: 400px;
    }
    .image{
       max-height: 402px;
