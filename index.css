@@ -151,5 +151,6 @@ text-align: center;
     width: 90%;
     min-width: 350px;
     max-width: 620px;
+    min-height: 270px;
 }
 
