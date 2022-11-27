@@ -1,6 +1,8 @@
 
     let header = document.getElementById("menu");
     let menuicon = document.getElementById("menu-icon");
+
+   
    
     menuicon.onclick = function(){
 
@@ -12,20 +14,9 @@
          else{
              menuicon.innerHTML="menu";
          }
- 
-        
-     
-
-
-       
-
-
-
-
-
-
-
 
     }
+
+   
     
 

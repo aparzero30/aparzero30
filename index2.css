@@ -9,6 +9,9 @@
 
 }
 @media only screen and (max-width: 1300px) {
+
+
+
 .image{
    height: 380px;
    width: 380px;
@@ -117,7 +120,7 @@
 
 
 
-@media only screen and (min-width: 500px) and (max-width:800px){
+@media only screen and (min-width: 500px) and (max-width:820px){
    .billboard{
       align-items: center;
    }

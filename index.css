@@ -29,6 +29,7 @@ body{
 h1{
     padding-left: 20px;
     color: #2dca94;
+    font-family: Secular One;
 
 }
 
@@ -159,11 +160,37 @@ text-align: center;
     background-repeat: no-repeat;
     min-height: 225px;
     min-width:255px;
-  
-   
+
 }
 
+.intro{
+    width: 400px;
+    height: 400px;
+    background-color: #2f3136;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
 
+.opening{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.ico1{
+    height: 30px;
+    width: 30px;
+    background-image: url("less.png");
+    background-size: cover;
+}
+
+.ico2{
+    height: 30px;
+    width: 30px;
+    background-image: url("greater.png");
+    background-size: cover;
+}
 
 
 
