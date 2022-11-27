@@ -1,6 +1,6 @@
 body,html{
 
-    height: 100vh;
+    height: max-content;
     width:100vw;
     background-color: #36393f;
     color: white;
