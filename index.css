@@ -154,23 +154,22 @@ text-align: center;
    /* background-color: yellow;*/
     height: 600px;
     width: 600px;
+   
     position: inherit;
     background-image: url("https://www.pngarts.com/files/11/Elon-Musk-PNG-High-Quality-Image.png");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 225px;
     min-width:255px;
 
 }
 
-.intro{
-    width: 400px;
-    height: 400px;
-    background-color: #2f3136;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-}
+
+
+
+
+
 
 
 
