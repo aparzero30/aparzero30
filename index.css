@@ -8,6 +8,8 @@ body,html{
     flex-direction: row;
     overflow-y: hidden;
     font-family: Roboto Slab;
+    position: fixed;
+    left: 0;
 
 
 }

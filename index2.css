@@ -11,7 +11,7 @@
 @media only screen and (max-width: 1000px) {
 
 
-    body{
+    body,html{
         background-color: #2f3136;
     }
 
