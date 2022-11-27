@@ -1,4 +1,7 @@
 
+
+
+
 @media only screen and (min-width: 500px ) and (max-width: 1000px){
 .menu ul li{
    font-size: 30px;
@@ -60,32 +63,52 @@
 
 .about{
    flex-direction: column;
+   margin-top: 10vh;
+   
+
+ 
 
 }
 
 .banner{
    width: 100vw;
-   height: 80vh;
+   height: 50vh;
    position: relative;
    top: 50px;
+   align-items: flex-start;
 /* background-color: aqua;*/
    z-index: 30;
    
-  
 
  
 }
-.banner div{
-  
-   height: 100%;
-   word-wrap: 90vw;
-   z-index: 9999;
- 
+.details{
+   width: 100vw;
+   height: 50vh;
 
- 
 }
 
 
 
+
+#bl{
+   height: 50vh;
+   width: 95vw;
+   z-index: 99;
+   position: fixed;
+   top: 60px;
+   
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 500px){
+   #bl{
+      height: 300px;
+   }
 
 }

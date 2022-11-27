@@ -8,10 +8,15 @@ body,html{
     flex-direction: row;
     overflow-y: hidden;
     font-family: Roboto Slab;
-    position: fixed;
+    position: fixed;    
     left: 0;
 
 
+}
+
+body{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -104,6 +109,7 @@ text-align: center;
     width: 100vw;
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -113,6 +119,7 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+
    
 }
 
@@ -125,15 +132,24 @@ text-align: center;
  
 }
 
-.banner div{
+#bl{
     width: 90%;
     height: 60vh;
-   
-    background-image: url("D:\zuck.png");
-    background-size:     cover;                      /* <------ */
+  
+    background-size:     100%;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
+
+.pic{
+    height: 90%;
+    width: 90%;
+    min-width: 350px;
+    max-width: 620px;
+}
 
