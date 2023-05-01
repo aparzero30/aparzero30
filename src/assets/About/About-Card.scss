@@ -1,0 +1,33 @@
+@import "../../main.scss";
+
+//about
+
+#card-wrapper {
+  height: max-content;
+  margin: 1vh;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+
+  h2 {
+    color: white;
+    font-family: "Poppins";
+  }
+  #bracket {
+    color: var(--hl2);
+  }
+  #h2 {
+    color: var(--hl1);
+  }
+}
+
+#card-wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 5vw;
+  }
+}

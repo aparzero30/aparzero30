@@ -1,0 +1,16 @@
+:root {
+  --hl1: #60fee7;
+  --hl2: #60c6fe;
+  --bgDark: #2f3136;
+  --bgLight: #36393f;
+  --testcolor: orange;
+}
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #2f3136;
+}

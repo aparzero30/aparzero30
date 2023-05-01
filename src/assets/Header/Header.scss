@@ -1,0 +1,66 @@
+@import "../../main.scss";
+
+#navbar {
+  background-color: var(--bgLight);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Poppins";
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+
+  div {
+    @include flexCenter;
+    // color: var(--hl1);
+    color: white;
+    height: 6vh;
+    font-size: 0.8vw;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+  }
+  div:hover {
+    background-color: var(--hl2);
+    color: black;
+  }
+  span {
+    position: fixed;
+    height: 6vh;
+    width: 6vh;
+    top: 0;
+    right: 0;
+    color: white;
+    @include flexCenter;
+    z-index: 1;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    width: 0;
+    flex-direction: column;
+    height: 100vh;
+    right: 0;
+    justify-content: flex-start;
+    transition: ease 0.5s all;
+    overflow: hidden;
+    div {
+      width: 100%;
+      font-size: 2vh;
+      height: 8vh;
+    }
+    #about {
+      margin-top: 8vh;
+    }
+    span {
+      display: flex;
+      height: 8vh;
+      width: 8vh;
+    }
+  }
+  #navbar.opennavbar {
+    width: 60vw;
+  }
+}

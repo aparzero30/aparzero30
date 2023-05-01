@@ -1,0 +1,28 @@
+//app scss
+
+#main-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  max-height: 100vh;
+  height: 100vh;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0.1vw; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #08bdff; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #2f3136; /* color of the scroll track */
+}
+
+body::-webkit-scrollbar-button {
+  display: none; /* hide the scroll buttons */
+}
